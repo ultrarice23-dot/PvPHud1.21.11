@@ -1,0 +1,7 @@
+{
+  "key.category.pvphud.main": "PvP HUD",
+  "key.pvphud.open": "Open Settings / HUD Editor",
+  "key.pvphud.start": "Start / Reset Tracker",
+  "key.pvphud.stop": "Close / Pause Tracker",
+  "key.pvphud.resume": "Resume Tracker (no reset)"
+}
