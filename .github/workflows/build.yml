@@ -13,10 +13,10 @@ jobs:
         with:
           gradle-version: 8.14.3
       - run: gradle build --stacktrace
-        working-directory: pvphud-1.21.11
+        working-directory: pvphud-1.21.11/pvphud
       - uses: actions/upload-artifact@v4
         with:
           name: pvphud-jar
           path: |
-            pvphud-1.21.11/build/libs/*.jar
-            !pvphud-1.21.11/build/libs/*-sources.jar
+            pvphud-1.21.11/pvphud/build/libs/*.jar
+            !pvphud-1.21.11/pvphud/build/libs/*-sources.jar
